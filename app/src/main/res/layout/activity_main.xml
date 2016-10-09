@@ -9,8 +9,81 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kevintakano.a5news.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:background="@drawable/rectangle"
+        android:id="@+id/B1"
+        android:padding="20dp"
+        android:onClick="AlgoritmoClick"
+        android:text="ALGORITMO"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:id="@+id/B2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/B1"
+        android:padding="20dp"
+        android:onClick="EDClick"
+        android:text="ESTRUTURAS DE DADOS"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:id="@+id/B3"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/B2"
+        android:padding="20dp"
+        android:onClick="LEClick"
+        android:text="LISTA ENCADEADA"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:id="@+id/B4"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/B3"
+        android:padding="20dp"
+        android:onClick="PILHAClick"
+        android:text="PILHA"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:id="@+id/B5"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/B4"
+        android:padding="20dp"
+        android:onClick="FILAClick"
+        android:text="FILA"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp">
+    </Button>
 </RelativeLayout>

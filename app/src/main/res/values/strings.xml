@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">5NEWS</string>
+    <string name="title_activity_content">5NEWS</string>
 </resources>
